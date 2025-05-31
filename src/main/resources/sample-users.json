@@ -1,0 +1,91 @@
+// Sample users for testing the E-Banking application
+
+// Admin user
+{
+  "email": "admin@ebanking.com",
+  "passwordHash": "admin123secure",
+  "firstName": "Admin",
+  "lastName": "User",
+  "phoneNumber": "+212601020304",
+  "role": "admin",
+  "isActive": true,
+  "language": "fr",
+  "gdprConsent": true,
+  "twoFactorEnabled": true,
+  "twoFactorMethod": "EMAIL"
+}
+
+// Bank agent
+{
+  "email": "agent1@ebanking.com",
+  "passwordHash": "agent123secure",
+  "firstName": "Marie",
+  "lastName": "Dupont",
+  "phoneNumber": "+212607080910",
+  "role": "agent",
+  "isActive": true,
+  "language": "fr",
+  "gdprConsent": true,
+  "twoFactorEnabled": true,
+  "twoFactorMethod": "SMS"
+}
+
+// Regular client
+{
+  "email": "client1@example.com",
+  "passwordHash": "client123secure",
+  "firstName": "Mohammed",
+  "lastName": "Alami",
+  "phoneNumber": "+212611121314",
+  "role": "client",
+  "isActive": true,
+  "language": "ar",
+  "gdprConsent": true,
+  "twoFactorEnabled": false,
+  "twoFactorMethod": null
+}
+
+// Premium client
+{
+  "email": "premium@example.com",
+  "passwordHash": "premium123secure",
+  "firstName": "Sophia",
+  "lastName": "El Mansouri",
+  "phoneNumber": "+212615161718",
+  "role": "client",
+  "isActive": true,
+  "language": "en",
+  "gdprConsent": true,
+  "twoFactorEnabled": true,
+  "twoFactorMethod": "APP"
+}
+
+// Inactive user
+{
+  "email": "inactive@example.com",
+  "passwordHash": "inactive123secure",
+  "firstName": "Karim",
+  "lastName": "Benhaddou",
+  "phoneNumber": "+212619202122",
+  "role": "client",
+  "isActive": false,
+  "language": "fr",
+  "gdprConsent": true,
+  "twoFactorEnabled": false,
+  "twoFactorMethod": "SMS"
+}
+
+// Business client
+{
+  "email": "business@company.com",
+  "passwordHash": "business123secure",
+  "firstName": "Fatima",
+  "lastName": "Zahra",
+  "phoneNumber": "+212623242526",
+  "role": "business",
+  "isActive": true,
+  "language": "fr",
+  "gdprConsent": true,
+  "twoFactorEnabled": true,
+  "twoFactorMethod": "SMS"
+}
